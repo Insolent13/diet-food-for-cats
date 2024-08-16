@@ -15,7 +15,7 @@
 <body class="page-body">
     <header class="header container header--nojs">
         <div class="header__wrapper">
-            <a class="header__logo" href="/">
+            <a class="header__logo" href="index.html">
                 <picture>
                     <source media="(min-width: 1440px)" srcset="img/logo/logo-desktop.svg">
                     <source media="(min-width: 768px)" srcset="img/logo/logo-tablet.svg">
@@ -32,27 +32,27 @@
             </div>
         </div>
       
-        <nav class="header__nav header__nav--catalog">
+        <nav class="header__nav header__nav--form">
             <ul class="header__nav-list">
                 <li class="header__nav-item">
-                    <a class="header__nav-link" href="index.html">Главная</a>
+                    <a class="header__nav-link" href="/">Главная</a>
                 </li>
                 <li class="header__nav-item">
                     <a class="header__nav-link" href="catalog.html">Каталог продукции</a>
                 </li>
                 <li class="header__nav-item">
                     <a class="header__nav-link" href="form.html">Подбор программы</a>
-                </li>
-            </ul>
+</li>
+          </ul>
         </nav>
-    </header>
+      </header>
 	<main class="main">
         <section class="catalog-title">
             <div class="catalog-title__container container">
               <h1 class="catalog-title__text">Каталог продукции</h1>
             </div>
         </section>
-		@@include('blocks/catalog-products.html')
+		@@include('blocks/catalog-products.html.html')
 		@@include('blocks/extra-catalog.html') 
 		@@include('blocks/map.html')
 	</main>
