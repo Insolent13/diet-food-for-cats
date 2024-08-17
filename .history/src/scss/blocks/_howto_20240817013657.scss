@@ -1,0 +1,21 @@
+.howto {
+    padding-bottom: 50px;
+  
+    @media (min-width: $tablet-width) {
+      padding-top: 22px;
+      margin-bottom: 21px;
+    }
+  
+    @media (min-width: $desktop-width) {
+      padding-top: 48px;
+    }
+}
+
+.howto__title {
+    margin-bottom: 40px;
+  
+    @media (min-width: $tablet-width) {
+      margin-bottom: 72px;
+    }
+}
+

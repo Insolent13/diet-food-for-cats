@@ -1,0 +1,52 @@
+.howto {
+    padding-bottom: 50px;
+  
+    @media (min-width: $tablet-width) {
+      padding-top: 22px;
+      margin-bottom: 21px;
+    }
+  
+    @media (min-width: $desktop-width) {
+      padding-top: 48px;
+    }
+}
+
+.howto__title {
+    margin-bottom: 40px;
+  
+    @media (min-width: $tablet-width) {
+      margin-bottom: 72px;
+    }
+}
+
+.howto__item {
+    position: relative;
+  
+    @media (min-width: $tablet-width) {
+      padding-left: 118px;
+    }
+}
+
+.howto__background {
+    display: none;
+  
+    @media (min-width: $tablet-width) {
+      display: block;
+      font-size: 280px;
+      line-height: 0.77;
+      color: #f2f2f2;
+    }
+}
+
+.howto__item-wrapper {
+    display: flex;
+    align-items: center;
+  
+    @media (min-width: $tablet-width) {
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+}
+

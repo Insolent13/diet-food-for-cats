@@ -1,0 +1,30 @@
+.header {
+    @media (min-width: $tablet-width) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+}
+
+.header__wrapper {
+    position: relative;
+    z-index: 3;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+  
+    @media (min-width: $tablet-width) {
+      height: 100px;
+      flex-grow: 1;
+      flex-shrink: 0;
+      justify-content: flex-start;
+      margin-right: 20px;
+      background-color: transparent;
+    }
+  
+    @media (min-width: $desktop-width) {
+      height: 163px;
+    }
+  }

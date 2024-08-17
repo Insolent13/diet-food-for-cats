@@ -1,0 +1,21 @@
+.services {
+    padding-top: 18px;
+    margin-bottom: 23px;
+  
+    @media (min-width: $tablet-width) {
+      padding-top: 0;
+    }
+  
+    @media (min-width: $desktop-width) {
+      padding-top: 79px;
+    }
+}
+
+.services__list {
+    @media (min-width: $desktop-width) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+    }
+}
+

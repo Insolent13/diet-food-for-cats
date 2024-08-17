@@ -1,0 +1,8 @@
+.header {
+    @media (min-width: $tablet-width) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+}
+

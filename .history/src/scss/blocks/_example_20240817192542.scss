@@ -1,0 +1,99 @@
+.example {
+    padding-top: 24px;
+    padding-bottom: 44px;
+    background-color: #eaeaea;
+  
+    @media (min-width: $tablet-width) {
+      border-top: 1px solid #e6e6e6;
+      padding-top: 43px;
+      padding-bottom: 59px;
+      background-image: linear-gradient(to bottom, #ffffff, #ffffff 57.5%, #eaeaea 57.5%, #eaeaea);
+    }
+  
+    @media (min-width: $desktop-width) {
+      border-top: none;
+      padding-top: 23px;
+      padding-bottom: 70px;
+      background-image: linear-gradient(to bottom, #ffffff, #ffffff 25%, #f2f2f2 25%, #f2f2f2);
+    }
+}
+
+.example__container {
+    @media (min-width: $desktop-width) {
+      display: flex;
+    }
+}
+
+.example__content {
+    margin-bottom: 42px;
+  
+    @media (min-width: $tablet-width) {
+      margin-bottom: 53px;
+    }
+  
+    @media (min-width: $desktop-width) {
+      margin-right: 194px;
+      margin-bottom: 0;
+    }
+}
+
+.example__title {
+    margin-bottom: 41px;
+  
+    @media (min-width: $tablet-width) {
+      margin-bottom: 63px;
+    }
+  
+    @media (min-width: $desktop-width) {
+      margin-bottom: 146px;
+    }
+}
+
+.example__text {
+    font-family: "Arial", serif;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 18px;
+  
+    @media (min-width: $tablet-width) {
+      font-size: 16px;
+      line-height: 24px;
+      color: $special-dark-grey;
+      margin-bottom: 54px;
+    }
+  
+    @media (min-width: $desktop-width) {
+      margin-bottom: 69px;
+    }
+}
+
+.example__content-wrapper {
+    @media (min-width: $tablet-width) {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    @media (min-width: $desktop-width) {
+      display: block;
+    }
+}
+
+.example__benefits {
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+  
+    @media (min-width: $desktop-width) {
+      justify-content: flex-start;
+      margin-bottom: 57px;
+    }
+}
+
+.example__benefit {
+    @media (min-width: $tablet-width) {
+      &:not(:last-child) {
+        margin-right: 42px;
+      }
+    }
+}
+

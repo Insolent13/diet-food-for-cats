@@ -1,0 +1,32 @@
+.map {
+    position: relative;
+    background-color: $basic-grey;
+}
+
+.map__wrapper {
+    width: 100%;
+  
+    @media (min-width: $desktop-width) {
+      position: absolute;
+      top: 24%;
+      z-index: 1;
+    }
+}
+
+.map__cooperate {
+    display: flex;
+    padding-top: 26px;
+    padding-bottom: 27px;
+  
+    @media (min-width: $tablet-width) {
+      justify-content: space-between;
+      padding: 62px 40px 59px;
+    }
+  
+    @media (min-width: $desktop-width) {
+      background-color: #ffffff;
+      padding: 61px 65px 59px 79px;
+      width: 565px;
+    }
+}
+

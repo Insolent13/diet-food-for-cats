@@ -1,0 +1,30 @@
+.intro {
+    position: relative;
+    background-image: url("../img/intro/intro-back-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/intro/intro-back-mobile@2x.jpg");
+    }
+  
+    @media (min-width: $tablet-width) {
+      background-color: transparent;
+      background-image: none;
+    }
+  
+    @media (min-width: $desktop-width) {
+      margin-top: -163px;
+      padding-top: 182px;
+      padding-bottom: 270px;
+      background-image: url("../img/intro/intro-back-desktop.jpg");
+      background-size: 50%;
+      background-position: top right;
+      background-repeat: no-repeat;
+  
+      @media (min-resolution: 2dppx) {
+        background-image: url("../img/intro/intro-back-desktop@2x.jpg");
+      }
+    }
+}
+

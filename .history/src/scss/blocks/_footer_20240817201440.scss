@@ -1,0 +1,7 @@
+.footer {
+    background-color: $basic-grey;
+  
+    @media (min-width: $tablet-width) {
+      padding: 58px 0;
+    }
+}
