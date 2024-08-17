@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	})
   });
 
-
+  
   document.addEventListener('DOMContentLoaded', () => {
 	document.querySelector('.header').classList.remove('header--nojs');
   
