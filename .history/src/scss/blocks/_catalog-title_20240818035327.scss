@@ -1,0 +1,9 @@
+.catalog-title {
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #ebebeb;
+  
+    @media (min-width: $tablet-width) {
+      border: none;
+      margin-bottom: 82px;
+    }
+}

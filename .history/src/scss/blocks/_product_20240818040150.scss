@@ -1,0 +1,12 @@
+.product {
+    @media (min-width: $tablet-width) {
+      background: linear-gradient(to bottom, transparent 16%, $basic-grey 16%);
+      padding: 8px 38px 39px;
+    }
+  
+    @media (min-width: $tablet-width) {
+      background: linear-gradient(to bottom, transparent 16%, $basic-grey 16%);
+      padding: 8px 40px 43px;
+    }
+}
+
