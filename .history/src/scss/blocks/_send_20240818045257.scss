@@ -1,0 +1,37 @@
+.send {
+    border-top: 1px solid #d9d9d9;
+    padding-bottom: 32px;
+  
+    @media (min-width: $tablet-width) {
+      border: none;
+      padding-bottom: 75px;
+    }
+}
+
+.send__container {
+    @media (min-width: $tablet-width) {
+      padding-left: 69px;
+      padding-right: 67px;
+    }
+  
+    @media (min-width: $desktop-width) {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+}
+
+.send__title {
+    display: inline-block;
+    padding-top: 25px;
+    margin-bottom: 34px;
+  
+    @media (min-width: $tablet-width) {
+      padding-top: 39px;
+      margin-bottom: 55px;
+    }
+  
+    @media (min-width: $desktop-width) {
+      padding-top: 22px;
+      margin-bottom: 57px;
+    }
+  }
