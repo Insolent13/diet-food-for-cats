@@ -1,0 +1,23 @@
+.page__footer {
+  margin-top: auto;
+}
+
+.footer {
+  background-color: #f2f2f2;
+}
+
+.footer__social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+
+  @media (min-width: $tablet-width) {
+    border-top: none;
+    border-bottom: none;
+    padding: 0;
+  }
+}
+

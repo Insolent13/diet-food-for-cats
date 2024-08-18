@@ -1,0 +1,146 @@
+.partnership {
+    @media (min-width: $desktop-width) {
+      position: relative;
+  
+      padding-top: 95px;
+      padding-bottom: 106px;
+    }
+}
+
+.partnership__container {
+    @media (min-width: $desktop-width) {
+      background-color: #ffffff;
+    }
+  
+    &--contrast {
+      background-color: #ffffff;
+    }
+}
+
+.partnership__info {
+    padding-top: 26px;
+    padding-bottom: 26px;
+  
+    display: grid;
+    grid-template-columns: minmax(auto, 130px) minmax(auto, 140px);
+    justify-content: space-between;
+    gap: 10px;
+  
+    @media (min-width: $tablet-width) {
+      padding-top: 61px;
+      padding-bottom: 61px;
+      padding-left: 40px;
+      padding-right: 40px;
+  
+      grid-template-columns: 163px 157px;
+    }
+  
+    @media (min-width: $desktop-width) {
+      position: relative;
+      z-index: 1;
+  
+      padding-top: 61px;
+      padding-bottom: 61px;
+      padding-left: 80px;
+      padding-right: 80px;
+      width: 565px;
+  
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+  
+      background-color: #ffffff;
+    }
+}
+
+.partnership__title {
+  flex: 1 0 47%;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 20px;
+  color: #111111;
+  margin-right: 10px;
+
+  @media (min-width: $tablet-width) {
+    flex: 0 1 25%;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  @media (min-width: $desktop-width) {
+    flex: 0 1 49%;
+  }
+}
+
+  .partnership__address {
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: $special-dark-grey;
+  
+    @media (min-width: $tablet-width) {
+      flex: 0 1 25%;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: end;
+    }
+  
+    @media (min-width: $desktop-width) {
+      text-align: start;
+      flex: 0 1 40%;
+    }
+}
+
+.partnership__street {
+    margin: 0;
+  
+    word-break: break-word;
+  
+    @media (min-width: $tablet-width) {
+      margin-bottom: 20px;
+    }
+  }
+
+  .partnership__city {
+    
+}
+
+.partnership__map {
+    --map-height: 362px;
+  
+    width: 100%;
+    height: var(--map-height);
+    overflow: hidden;
+  
+    background-color: #ececec;
+  
+    @media (min-width: $tablet-width) {
+      --map-height: 400px;
+    }
+  
+    @media (min-width: $desktop-width) {
+      --map-height: 100%;
+  
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  
+    & iframe {
+      position: relative;
+      top: calc(0px - var(--map-height));
+  
+      border: none;
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+    }
+}
+
+.partnership__map-image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}

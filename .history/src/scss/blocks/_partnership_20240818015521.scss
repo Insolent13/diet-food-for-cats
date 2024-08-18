@@ -1,0 +1,18 @@
+.partnership {
+    @media (min-width: desktop-width) {
+      position: relative;
+  
+      padding-top: 95px;
+      padding-bottom: 106px;
+    }
+}
+
+.partnership__container {
+     {
+      background-color: $color-bg-basic;
+    }
+  
+    &--contrast {
+      background-color: $color-bg-basic;
+    }
+}
